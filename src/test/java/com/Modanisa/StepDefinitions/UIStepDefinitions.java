@@ -30,13 +30,13 @@ public class UIStepDefinitions {
     @When("I write {string} to TextBox and press enter")
     public void iWriteToTextBoxAndPressEnter(String item) {
         homePage.writeToTextBoxAndHitEnter(item);
-        BrowserUtils.waitFor(1);
+
     }
 
     @Then("I should see {string} item in ToDo list")
     public void iShouldSeeItemInToDoList(String item) {
         Assert.assertEquals(item, homePage.getFirstItemText());
-        BrowserUtils.waitFor(1);
+
     }
 
     @Given("ToDo list with {string} item")

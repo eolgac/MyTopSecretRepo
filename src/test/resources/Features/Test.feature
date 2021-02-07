@@ -1,5 +1,5 @@
 @test
-Feature: Acceptance test
+Feature: Acceptance test1
 
   Background:
     * User navigated to ToDo application

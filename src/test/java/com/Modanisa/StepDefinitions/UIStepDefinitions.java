@@ -19,7 +19,8 @@ public class UIStepDefinitions {
 
     @Given("User navigated to ToDo application")
     public void user_navigated_to_ToDo_application() {
-        Driver.get().get(ConfigurationReader.get("url"));
+        String url = System.getProperty("base.url") != null ? System.getProperty("base.url") : ConfigurationReader.get("url");
+        Driver.get().get(url);
     }
 
     @Given("Empty ToDo list")

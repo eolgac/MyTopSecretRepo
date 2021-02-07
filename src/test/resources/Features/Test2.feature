@@ -1,5 +1,5 @@
 @test
-Feature: Acceptance test
+Feature: Acceptance test2
 
   Background:
     * User navigated to ToDo application
@@ -31,4 +31,4 @@ Feature: Acceptance test
   Scenario: I should be able to add FAILED TEST to empty ToDo list
     Given Empty ToDo list
     When I write "test1" to TextBox and press enter
-    Then I should see "test1" item in ToDo list
+    Then I should see "asdasd" item in ToDo list

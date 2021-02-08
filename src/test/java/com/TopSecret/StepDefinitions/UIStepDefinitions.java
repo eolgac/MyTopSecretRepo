@@ -1,9 +1,8 @@
-package com.Modanisa.StepDefinitions;
+package com.TopSecret.StepDefinitions;
 
-import com.Modanisa.Pages.HomePage;
-import com.Modanisa.Utilities.BrowserUtils;
-import com.Modanisa.Utilities.ConfigurationReader;
-import com.Modanisa.Utilities.Driver;
+import com.TopSecret.Pages.HomePage;
+import com.TopSecret.Utilities.ConfigurationReader;
+import com.TopSecret.Utilities.Driver;
 import io.cucumber.java.en.Given;
 import io.cucumber.java.en.Then;
 import io.cucumber.java.en.When;

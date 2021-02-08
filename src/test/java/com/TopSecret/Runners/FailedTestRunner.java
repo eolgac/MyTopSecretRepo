@@ -1,4 +1,4 @@
-package com.Modanisa.Runners;
+package com.TopSecret.Runners;
 
 import io.cucumber.junit.Cucumber;
 import io.cucumber.junit.CucumberOptions;
@@ -8,7 +8,7 @@ import org.junit.runner.RunWith;
 @CucumberOptions(
         plugin = "html:target/failed-html-reports",
         features = "@target/rerun.txt",
-        glue = "com/Modanisa/StepDefinitions"
+        glue = "com/TopSecret/StepDefinitions"
 )
 public class FailedTestRunner {
 }

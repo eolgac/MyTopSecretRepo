@@ -1,4 +1,4 @@
-package com.Modanisa.Runners;
+package com.TopSecret.Runners;
 
 import io.cucumber.junit.Cucumber;
 import io.cucumber.junit.CucumberOptions;
@@ -9,7 +9,7 @@ import org.junit.runner.RunWith;
         plugin = {"json:target/cucumber.json",
                   "rerun:target/rerun.txt"},
         features = "src/test/resources/Features",
-        glue = "com/Modanisa/StepDefinitions",
+        glue = "com/TopSecret/StepDefinitions",
         dryRun = false,
         tags = "@test"
 )

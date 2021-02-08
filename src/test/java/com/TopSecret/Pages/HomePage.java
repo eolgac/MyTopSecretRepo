@@ -1,7 +1,7 @@
-package com.Modanisa.Pages;
+package com.TopSecret.Pages;
 
-import com.Modanisa.Utilities.BrowserUtils;
-import com.Modanisa.Utilities.Driver;
+import com.TopSecret.Utilities.BrowserUtils;
+import com.TopSecret.Utilities.Driver;
 import org.openqa.selenium.By;
 import org.openqa.selenium.Keys;
 import org.openqa.selenium.WebElement;
